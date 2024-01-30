@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato: Order Food From Anywhere</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="download.png">
+</head>
+<body>
+    <div class="header">
+        <img src="wp9980760.jpg" alt="">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <h2>Popular locations in <img src="indian flag.png" alt="IN"> India</h2>
+    <nav class="menu">
+        <!-- Add your menu items or navigation links here -->
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!-- Rest of your HTML content -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('.menu-icon').classList.toggle('change');
+            document.querySelector('.menu').classList.toggle('change');
+        }
+    </script>
+</body>
+</html>

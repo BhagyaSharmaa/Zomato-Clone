@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download the App</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .content {
+            display: flex;
+            margin: 90px;
+            padding: 40px;
+            justify-content:center;
+            background-color: rgb(255, 255, 248);
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        .phoneimg {
+            display:flex;
+            align-items: center;
+        }
+
+        .phoneimg img {
+            max-width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        .address {
+            width: 400px;
+            margin-top: 25px;
+            padding-left: 10px;
+            padding-top: 30px;
+        }
+
+        .address p {
+            padding-bottom: 10px;
+            font-size: 0.95rem;
+            color: rgb(92, 91, 91);
+        }
+
+        .address h2 {
+            font-size: 2.7rem;
+            font-weight: lighter;
+            margin-bottom: 20px;
+            color: rgb(34, 34, 34);
+        }
+
+        .radio {
+            display: flex;
+            justify-content:center;
+            margin-right: 230px;
+            padding-bottom: 20px;
+        }
+
+        .radio input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .radio label {
+            font-size: 1.1rem;
+            color: rgb(49, 49, 49);
+        }
+
+        .radio input[type="radio"] {
+            accent-color: rgb(255, 92, 92);
+        }
+
+        .email {
+            display:block;
+            margin-top: 20px; 
+            text-align: center; 
+        }
+
+        .email input {
+            height: 46px;
+            border-radius: 5px;
+            width: 270px;
+            border: 1px solid rgb(184, 183, 183);
+            outline: rgb(255, 92, 92);
+            font-size: 1.3rem;
+            padding: 15px;
+        }
+        .place {
+            position: absolute;
+            font-size: 1.3rem;
+            left: 15px;
+            top: 13px;
+            color: gray;
+            font-weight: lighter;
+        }
+        .email button {
+            width: 150px;
+            border-radius: 6px;
+            border: 1px solid rgb(253, 104, 104);
+            background-color: rgb(253, 104, 104);
+            font-size: 1.1rem;
+            margin-left: 6px;
+            color: white;
+        }
+        .download {
+            font-size: 0.7rem;
+            margin-top: 27px;
+            margin-bottom: 0;
+            color: gray;
+        }
+        .apps a {
+            margin-right: 15px;
+        }
+
+        .apps a:last-child {
+            margin-right: 0;
+        }
+
+        .apps1 img {
+            /* width: 137px;
+            height: 40px; */
+            max-width: 100%;
+            max-height: 100px;
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+        }
+        .apps2 img{
+            max-width: 100%;
+            max-height: 100px;
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+        }
+        .apps a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .apps a:hover {
+            text-decoration: underline;
+        }
+.apps {
+    margin-top: 20px; 
+}
+.apps a {
+    display: block; 
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <section class="content">
+        <div class="phoneimg">
+            <img src="phoneapp.png" alt="">
+            <div class="address">
+                <h2>Get The App for your Mobile</h2>
+                <p>We will send you a confirmation link on your phone to download the App!</p>
+            </div>
+        </div>
+        <div class="email">
+            <input class="input" type="email" placeholder="Email">
+            <label for="" class="place" ></label>
+            <button>Share App Link!</button>
+        </div>
+        <p class="download">Download App from </p>
+        <div class="apps1">
+            <a href="https://play.google.com/store/search?q=zomato&c=apps">
+                <img src="googleplay-removebg-preview.png" alt="">
+            </div>
+            <div class="apps2">
+            </a>
+            <a href="https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896">
+                <img src="appstoresmall-removebg-preview.png" alt="">
+            </a>
+            </div>
+    </section>
+</body>
+</html>
